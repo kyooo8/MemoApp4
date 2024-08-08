@@ -1,8 +1,8 @@
 import { Redirect } from "expo-router";
 import React from "react";
 
-const index = () => {
-  return <Redirect href="memo/edit" />;
+const Index = () => {
+  return <Redirect href="auth/sing_up" />;
 };
 
-export default index;
+export default Index;
