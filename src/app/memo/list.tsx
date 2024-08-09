@@ -8,7 +8,7 @@ import LogOutButton from "../../components/LogOutButton";
 
 import { router, useNavigation } from "expo-router";
 
-const handlePress = () => {
+const handlePress = (): void => {
   router.push("/memo/create");
 };
 

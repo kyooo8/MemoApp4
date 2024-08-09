@@ -16,7 +16,7 @@ const handlePress = (): void => {
   router.replace("/memo/list");
 };
 
-const Log_in = () => {
+const Log_in = (): JSX.Element => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (

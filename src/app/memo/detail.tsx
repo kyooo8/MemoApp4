@@ -5,11 +5,11 @@ import CircleButton from "../../components/CircleButton";
 import Icon from "../../components/Icon";
 import { router } from "expo-router";
 
-const handlePress = () => {
+const handlePress = (): void => {
   router.push("/memo/edit");
 };
 
-const Detail = () => {
+const Detail = (): JSX.Element => {
   return (
     <View style={styles.container}>
       <View style={styles.memoHeader}>
