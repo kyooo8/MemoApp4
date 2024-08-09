@@ -6,7 +6,7 @@ interface Props {
   onPress?: () => void;
 }
 
-const Button = (props: Props) => {
+const Button = (props: Props): JSX.Element => {
   const { label, onPress } = props;
   return (
     <TouchableOpacity onPress={onPress} style={styles.button}>

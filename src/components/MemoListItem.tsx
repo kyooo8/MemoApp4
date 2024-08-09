@@ -4,7 +4,7 @@ import React from "react";
 
 import Icon from "./Icon";
 
-const MemoListItem = () => {
+const MemoListItem = (): JSX.Element => {
   return (
     <Link href={"/memo/detail"} asChild>
       <TouchableOpacity style={styles.memoListItem}>
