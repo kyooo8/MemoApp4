@@ -6,9 +6,9 @@ import {
   TouchableOpacity,
   Alert,
 } from "react-native";
-import React, { useState } from "react";
 import { Link, router } from "expo-router";
 import { createUserWithEmailAndPassword } from "firebase/auth";
+import React, { useState } from "react";
 
 import { auth } from "../../config";
 import Button from "../../components/Button";
@@ -65,7 +65,7 @@ const Sing_up = (): JSX.Element => {
         />
         <View style={styles.footer}>
           <Text style={styles.footerText}>Already registered?</Text>
-          <Link href={"/auth/log_in"} asChild>
+          <Link href={"/auth/log_in"} asChild replace>
             <TouchableOpacity>
               <Text style={styles.footerLink}>Log in.</Text>
             </TouchableOpacity>
